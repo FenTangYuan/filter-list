@@ -1,257 +1,339 @@
 # 鏈接
--[uBlockOrigin](https://github.com/gorhill/uBlock)
--[Trace-OnlineTracking](https://github.com/jake-cryptic/AbsoluteDoubleTrace/)
+-[uBlock Origin](https://github.com/gorhill/uBlock)
+-[Trace-Online Tracking](https://github.com/jake-cryptic/AbsoluteDoubleTrace/)
 -[Disconnect](https://github.com/disconnectme/disconnect)
 -[Decentraleyes](https://git.synz.io/Synzvato/decentraleyes)
--[OneTab](https://www.one-tab.com/)
--[AdguardFilters](https://github.com/AdguardTeam/AdguardFilters)
+-[One Tab](https://www.one-tab.com/)
+-[Adguard Filters](https://github.com/AdguardTeam/AdguardFilters)
 
 
-# ----------------------Trace-OnlineTrackingProtection-----------------------
-gitlab訪問失敗，Trace擴展'ProxyIPHeaderSpoofing'臨時關閉即可。
-先裝Disconnect、Decentraleyes再裝uBlockOrigin。
+# ----------------------Trace-Online Tracking Protection-----------------------
+gitlab訪問失敗，Trace擴展'Proxy IP Header Spoofing'臨時關閉即可。
+先裝Disconnect、Decentraleyes再裝uBlock Origin。
 
-# --------------------uBlockOrigin使用adguard規則--------------------------
--[AdGuardfilters](https://kb.adguard.com/en/general/adguard-ad-filters)
+# ----------------------uBlock Origin使用adguard規則---------------
+-[AdGuard filters](https://kb.adguard.com/en/general/adguard-ad-filters)
 
-AdBlocking
-Enabled:AdGuardBasefilter
+Ad Blocking
+Enabled: AdGuard Base filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt
 
 Privacy
-Enabled:AdGuardTrackingProtectionfilter
+Enabled: AdGuard Tracking Protection filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 
-SocialWidgets
-Enabled:AdGuardSocialMediafilter
+Social Widgets
+Enabled: AdGuard Social Media filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
 
 Annoyances
-Enabled:AdGuardAnnoyancesfilter
+Enabled: AdGuard Annoyances filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
 
 Security
-Enabled:OnlineMaliciousURLBlocklist
+Enabled: Online Malicious URL Blocklist
 https://gitlab.com/curben/urlhaus-filter/-/raw/master/urlhaus-filter-ag-online.txt
 
 Other
-Enabled:Filterunblockingsearchadsandself-promotion
+Enabled: Filter unblocking search ads and self-promotion
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt
 
 Language-specific
-Enabled:AdGuardRussianfilter
+Enabled: AdGuard Russian filter
 
-Chinesefilter
+Chinese filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
 
-Japanesefilter
+Japanese filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt
 
-Russianfilter
+Russian filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt
 
-Germanfilter
+German filter 
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_6_German/filter.txt
 
-Frenchfilter
+French filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_16_French/filter.txt
 
-Dutchfilter
+Dutch filter 
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_8_Dutch/filter.txt
 
-Spanish/Portuguesefilter
+Spanish/Portuguese filter 
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_9_Spanish/filter.txt
 
-Turkishfilter
+Turkish filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_13_Turkish/filter.txt
 
 Custom
 
-DNSfilter
+DNS filter 
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt
 
-Mobileadsfilter
+Mobile ads filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
 
-Idon'tcareaboutcookies
+I don't care about cookies
 https://www.i-dont-care-about-cookies.eu/abp/
 
-AdGuardExperimentalfilter
+AdGuard Experimental filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_5_Experimental/filter.txt
+
+
+============================
 
 
 # -------------adguard規則列表----------------
 
 EasyList
 https://easylist.to/easylist/easylist.txt
+
 ABPindo
 https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt
-Bulgarianlist
+
+Bulgarian list
 https://stanev.org/abp/adblock_bg.txt
-EasyListChina
+
+EasyList China
 https://easylist-downloads.adblockplus.org/easylistchina.txt
-EasyListCzechandSlovak
+
+EasyList Czech and Slovak
 https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt
-EasyListDutch
+
+EasyList Dutch
 https://easylist-downloads.adblockplus.org/easylistdutch.txt
-EasyListGermany
+
+EasyList Germany
 https://easylist.to/easylistgermany/easylistgermany.txt
-EasyListHebrew
+
+EasyList Hebrew
 https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt
-EasyListItaly
+
+EasyList Italy
 https://easylist-downloads.adblockplus.org/easylistitaly.txt
-EasyListLithuania
+
+EasyList Lithuania
 https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt
-LatvianList
+
+Latvian List
 https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt
-ListeAR
+
+Liste AR
 https://easylist-downloads.adblockplus.org/Liste_AR.txt
-ListeFR
+
+Liste FR
 https://easylist-downloads.adblockplus.org/liste_fr.txt
+
 ROList
 https://www.zoso.ro/pages/rolist.txt
-RUAdList
+
+RU AdList
 https://easylist-downloads.adblockplus.org/advblock+cssfixes.txt
+
 EasyPrivacy
 https://easylist.to/easylist/easyprivacy.txt
-IcelandicABPList
+
+Icelandic ABP List
 https://adblock.gardar.net/is.abp.txt
+
 AdBlockID
 https://raw.githubusercontent.com/realodix/AdBlockID/master/output/adblockid.txt
-GreekAdBlockFilter
+
+Greek AdBlock Filter
 https://www.void.gr/kargig/void-gr-filters.txt
-Fanboy'sAnnoyances
+
+Fanboy's Annoyances
 https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
-Fanboy'sSocialBlockingList
+
+Fanboy's Social Blocking List
 https://easylist-downloads.adblockplus.org/fanboy-social.txt
-WebAnnoyancesUltralist
+
+Web Annoyances Ultralist
 https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
-ThaiAdsFilters
+
+Thai Ads Filters
 https://adblock-thai.github.io/thai-ads-filter/subscription.txt
-Hungarianfilter
+
+Hungarian filter
 https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-adguard.txt
-PeterLowe'sBlocklist
+
+Peter Lowe's Blocklist
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext
+
 Xfiles
 https://raw.githubusercontent.com/gioxx/xfiles/master/filtri.txt
-AdblockWarningRemovalList
+
+Adblock Warning Removal List
 https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
-OnlineMaliciousURLBlocklist
+
+Online Malicious URL Blocklist
 https://gitlab.com/curben/urlhaus-filter/-/raw/master/urlhaus-filter-ag-online.txt
+
 Spam404
 https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt
-RUAdList:Counters
+
+RU AdList: Counters
 https://easylist-downloads.adblockplus.org/cntblock.txt
-RUAdList:BitBlock
+
+RU AdList: BitBlock
 https://easylist-downloads.adblockplus.org/bitblock.txt
-ABPVNList
-descriptionVietnameseadblockfilterlist.
+
+ABPVN List
+description Vietnamese adblock filter list.
 https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt
-Fanboy'sEnhancedTrackingList
+
+Fanboy's Enhanced Tracking List
 https://secure.fanboy.co.nz/enhancedstats.txt
-OfficialPolishfiltersforAdBlock,uBlockOrigin&AdGuard
+
+Official Polish filters for AdBlock, uBlock Origin & AdGuard
 https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt
-PolskieFiltryCiasteczkowe
+
+Polskie Filtry Ciasteczkowe
 https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt
-EstonianList
+
+Estonian List
 https://adblock.ee/list.php
+
 ChinaList+EasyList
 http://sub.adtchrome.com/adt-chinalist-easylist.txt
-CJX'sAnnoyanceList
+
+CJX's Annoyance List
 https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
-PolskieFiltrySpołecznościowe
+
+Polskie Filtry Społecznościowe
 https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/adblock_social_filters/adblock_social_list.txt
-Adblock-Persianlist
+
+Adblock-Persian list
 https://ideone.com/plain/K452p
-Fanboy'sSwedish
+
+Fanboy's Swedish
 https://www.fanboy.co.nz/fanboy-swedish.txt
-FanboyAnti-FacebookList
+
+Fanboy Anti-Facebook List
 https://www.fanboy.co.nz/fanboy-antifacebook.txt
-Fanboy'sVietnamese
-descriptionFanboy'sVietnamese
+
+Fanboy's Vietnamese description Fanboy's Vietnamese
 https://www.fanboy.co.nz/fanboy-vietnam.txt
+
 List-KR
 https://raw.githubusercontent.com/List-KR/List-KR/master/filter.txt
+
 xinggsf
 https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt
-Idon'tcareaboutcookies
+
+I don't care about cookies
 https://www.i-dont-care-about-cookies.eu/abp/
-Fanboy'sSpanish/Portuguese
+
+Fanboy's Spanish/Portuguese
 https://fanboy.co.nz/fanboy-espanol.txt
-EasyListSpanish
+
+EasyList Spanish
 https://easylist-downloads.adblockplus.org/easylistspanish.txt
-KAD-Przekręty
+
+KAD - Przekręty
 https://raw.githubusercontent.com/PolishFiltersTeam/KAD/master/KAD.txt
-AdblockListforFinland
+
+Adblock List for Finland
 https://raw.githubusercontent.com/theel0ja/finnish-easylist-addition/master/Finland_adb.txt
+
 ROLIST2
 https://www.zoso.ro/pages/rolist2.txt
-Iranianfilter
+
+Iranian filter
 https://gitcdn.xyz/repo/farrokhi/adblock-iran/master/filter.txt
+
 road-block
 https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters.txt
-PolskieFiltryElementówIrytujących
+
+Polskie Filtry Elementów Irytujących
 https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PPB.txt
-PolishAntiAdblockFilters
+
+Polish Anti Adblock Filters
 https://raw.githubusercontent.com/olegwukr/polish-privacy-filters/master/anti-adblock.txt
-Fanboy'sAnti-thirdpartyFonts
+
+Fanboy's Anti-thirdparty Fonts
 https://fanboy.co.nz/fanboy-antifonts.txt
+
 BarbBlock
 https://paulgb.github.io/BarbBlock/blacklists/adblock-plus.txt
-EasyListCookieList
+
+EasyList Cookie List
 https://www.fanboy.co.nz/fanboy-cookiemonster.txt
-NoCoinFilterList
+
+NoCoin Filter List
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
-Frellwit'sSwedishFilter
+
+Frellwit's Swedish Filter
 https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt
+
 YousList
 https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
+
 AlleBlock
 https://alleblock.pl/alleblock/alleblock.txt
-EasyListPolish
+
+EasyList Polish
 https://easylist-downloads.adblockplus.org/easylistpolish.txt
-PolskiAntyirytującyDodatekSpecjalny
+
+Polski Antyirytujący Dodatek Specjalny
 https://raw.githubusercontent.com/PolishFiltersTeam/PolishAntiAnnoyingSpecialSupplement/master/polish_rss_filters.txt
-DandelionSprout'sNordicFilters
+
+Dandelion Sprout's Nordic Filters
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersAdGuard.txt
-Filterunblockingsearchadsandself-promotion
+
+Filter unblocking search ads and self-promotion
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt
-AdGuardMobileAdsfilter
+
+AdGuard Mobile Ads filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
-AdGuardTurkishfilter
+
+AdGuard Turkish filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_13_Turkish/filter.txt
-AdGuardAnnoyancesfilter
+
+AdGuard Annoyances filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
-AdGuardDNSfilter
+
+AdGuard DNS filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt
-AdGuardFrenchfilter
+
+AdGuard French filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_16_French/filter.txt
-AdGuardRussianfilter
+
+AdGuard Russian filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt
-AdGuardChinesefilter
+
+AdGuard Chinese filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
-AdGuardBasefilter
+
+AdGuard Base filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt
-AdGuardTrackingProtectionfilter
+
+AdGuard Tracking Protection filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
-AdGuardSocialMediafilter
+
+AdGuard Social Media filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
-AdGuardExperimentalfilter
+
+AdGuard Experimental filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_5_Experimental/filter.txt
-AdGuardGermanfilter
+
+AdGuard German filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_6_German/filter.txt
-AdGuardJapanesefilter
+
+AdGuard Japanese filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt
-AdGuardDutchfilter
+
+AdGuard Dutch filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_8_Dutch/filter.txt
-AdGuardSpanish/Portuguesefilter
+
+AdGuard Spanish/Portuguese filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_9_Spanish/filter.txt
 
 ===========================
 
--[Anti-AdblockKiller](https://reek.github.io/anti-adblock-killer/#filterlist)
+-[Anti-Adblock Killer](https://reek.github.io/anti-adblock-killer/#filterlist)
 -[anti-adblock-killer](https://github.com/reek/anti-adblock-killer)
--[Anti-AdblockKiller](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
+-[Anti-Adblock Killer](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
 -[AK-Cont](https://gitlab.com/xuhaiyang1234/AAK-Cont/tree/master/FINAL_BUILD)
 
 https://gitlab.com/xuhaiyang1234/AAK-Cont/-/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt
@@ -259,4 +341,5 @@ https://gitlab.com/xuhaiyang1234/AAK-Cont/-/raw/master/FINAL_BUILD/aak-cont-list
 https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt
 
 ===========================
-#-[粉糖圓tw.ttf.otf](https://github.com/FenTangYuan/fentangyuan)
+
+# -[粉糖圓 tw .ttf .otf](https://github.com/FenTangYuan/fentangyuan)
