@@ -4,14 +4,19 @@
 
 
 GNU IceCat
+
 https://github.com/losuler/icecat
+
 https://software.opensuse.org//download.html?project=home%3Alosuler%3Aicecat&package=icecat
+
 https://github.com/muslayev/icecat-win64
 
 
 ungoogled-chromium
 https://github.com/Eloston/ungoogled-chromium
+
 https://ungoogled-software.github.io/ungoogled-chromium-binaries/
+
 https://software.opensuse.org/download/package?package=ungoogled-chromium&project=home:ungoogled_chromium
 
 * If you have the `.deb` packages:
@@ -49,7 +54,7 @@ https://software.opensuse.org/download/package?package=ungoogled-chromium&projec
       ```
  
 
-
+-------------------
 
 -[uBlock Origin](https://github.com/gorhill/uBlock)
 -[Trace-Online Tracking](https://github.com/jake-cryptic/AbsoluteDoubleTrace/)
