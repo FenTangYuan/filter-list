@@ -13,10 +13,10 @@ https://github.com/muslayev/icecat-win64
 
 * If you have the `.deb` packages:
 
-    ```bash
+```bash
 echo 'deb https://download.opensuse.org/repositories/home:/losuler:/icecat/Debian_10/ /' | sudo tee 	/etc/apt/sources.list.d/home:losuler:icecat.list
 curl -fsSL https://download.opensuse.org/repositories/home:losuler:icecat/Debian_10/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_losuler_icecat.gpg > /dev/null
-    ```
+```
 
 
 ungoogled-chromium
