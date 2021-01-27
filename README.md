@@ -1,12 +1,8 @@
 
 -[uBlock Origin](https://github.com/gorhill/uBlock)
-
 -[Trace-Online Tracking](https://github.com/jake-cryptic/AbsoluteDoubleTrace/)
-
 -[Disconnect](https://github.com/disconnectme/disconnect)
-
 -[Decentraleyes](https://git.synz.io/Synzvato/decentraleyes)
-
 -[One Tab](https://www.one-tab.com/)
 
 -[Adguard Filters](https://github.com/AdguardTeam/AdguardFilters)
