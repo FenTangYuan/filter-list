@@ -1,4 +1,56 @@
 
+
+
+
+
+GNU IceCat
+https://github.com/losuler/icecat
+https://software.opensuse.org//download.html?project=home%3Alosuler%3Aicecat&package=icecat
+https://github.com/muslayev/icecat-win64
+
+
+ungoogled-chromium
+https://github.com/Eloston/ungoogled-chromium
+https://ungoogled-software.github.io/ungoogled-chromium-binaries/
+https://software.opensuse.org/download/package?package=ungoogled-chromium&project=home:ungoogled_chromium
+
+* If you have the `.deb` packages:
+
+	```sh
+	# dpkg -i ungoogled-chromium_*.deb ungoogled-chromium-common_*.deb
+	```
+
+* If you are using OBS:
+  - OBS (Debian Buster)
+    ```sh
+    # echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/ /' | sudo tee /etc/apt/sources.list.d/home-ungoogled_chromium.list > /dev/null
+    # curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
+    # sudo apt update
+    # sudo apt install -y ungoogled-chromium
+    ```
+  - OBS (Debian Sid)
+    ```sh
+    # echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Sid/ /' | sudo tee /etc/apt/sources.list.d/home-ungoogled_chromium.list > /dev/null
+    # curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Sid/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
+    # sudo apt update
+    # sudo apt install -y ungoogled-chromium
+    ```
+    
+      * RPM repository
+    - OBS (Fedora 33)
+      ```sh
+      # dnf config-manager --add-repo https://download.opensuse.org/repositories/home:wchen342:ungoogled-chromium-fedora/Fedora_33/home:wchen342:ungoogled-chromium-fedora.repo
+      # dnf install ungoogled-chromium
+      ```
+    - OBS (Fedora 32)
+      ```sh
+      # dnf config-manager --add-repo https://download.opensuse.org/repositories/home:wchen342:ungoogled-chromium-fedora/Fedora_32/home:wchen342:ungoogled-chromium-fedora.repo
+      # dnf install ungoogled-chromium
+      ```
+ 
+
+
+
 -[uBlock Origin](https://github.com/gorhill/uBlock)
 -[Trace-Online Tracking](https://github.com/jake-cryptic/AbsoluteDoubleTrace/)
 -[Disconnect](https://github.com/disconnectme/disconnect)
