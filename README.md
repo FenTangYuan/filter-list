@@ -3,12 +3,12 @@
 -[Trace-Online Tracking](https://github.com/jake-cryptic/AbsoluteDoubleTrace/)
 -[Disconnect](https://github.com/disconnectme/disconnect)
 -[Decentraleyes](https://git.synz.io/Synzvato/decentraleyes)
--[One Tab](https://www.one-tab.com/)
+-[OneTab](https://www.one-tab.com/)
 
 -[Adguard Filters](https://github.com/AdguardTeam/AdguardFilters)
 
 
-------Trace-Online Tracking Protection-------
+------Trace-------
 
 gitlab訪問失敗，Trace擴展'Proxy IP Header Spoofing'臨時關閉即可。
 
@@ -333,11 +333,8 @@ https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/fil
 =======
 
 -[Anti-Adblock Killer](https://reek.github.io/anti-adblock-killer/#filterlist)
-
 -[anti-adblock-killer](https://github.com/reek/anti-adblock-killer)
-
 -[Anti-Adblock Killer](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
-
 -[AK-Cont](https://gitlab.com/xuhaiyang1234/AAK-Cont/tree/master/FINAL_BUILD)
 
 https://gitlab.com/xuhaiyang1234/AAK-Cont/-/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt
