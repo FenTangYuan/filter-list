@@ -1,17 +1,25 @@
-## 鏈接
+
 -[uBlock Origin](https://github.com/gorhill/uBlock)
+
 -[Trace-Online Tracking](https://github.com/jake-cryptic/AbsoluteDoubleTrace/)
+
 -[Disconnect](https://github.com/disconnectme/disconnect)
+
 -[Decentraleyes](https://git.synz.io/Synzvato/decentraleyes)
+
 -[One Tab](https://www.one-tab.com/)
+
 -[Adguard Filters](https://github.com/AdguardTeam/AdguardFilters)
 
 
-# ----------------------Trace-Online Tracking Protection-----------------------
+------Trace-Online Tracking Protection-------
+
 gitlab訪問失敗，Trace擴展'Proxy IP Header Spoofing'臨時關閉即可。
+
 先裝Disconnect、Decentraleyes再裝uBlock Origin。
 
-# ----------------------uBlock Origin使用adguard規則---------------
+--------uBlock Origin使用adguard規則--------
+
 -[AdGuard filters](https://kb.adguard.com/en/general/adguard-ad-filters)
 
 Ad Blocking
@@ -80,10 +88,8 @@ AdGuard Experimental filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_5_Experimental/filter.txt
 
 
-============================
 
-
-# -------------adguard規則列表----------------
+--------adguard規則列表--------
 
 EasyList
 https://easylist.to/easylist/easylist.txt
@@ -329,11 +335,14 @@ https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/fil
 AdGuard Spanish/Portuguese filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_9_Spanish/filter.txt
 
-=========
-## 鏈接
+=======
+
 -[Anti-Adblock Killer](https://reek.github.io/anti-adblock-killer/#filterlist)
+
 -[anti-adblock-killer](https://github.com/reek/anti-adblock-killer)
+
 -[Anti-Adblock Killer](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
+
 -[AK-Cont](https://gitlab.com/xuhaiyang1234/AAK-Cont/tree/master/FINAL_BUILD)
 
 https://gitlab.com/xuhaiyang1234/AAK-Cont/-/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt
@@ -344,4 +353,4 @@ https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-k
 
 ======
 
-# -[粉糖圓 tw .ttf .otf](https://github.com/FenTangYuan/fentangyuan)
+-[粉糖圓 tw .ttf .otf](https://github.com/FenTangYuan/fentangyuan)
