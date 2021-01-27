@@ -49,14 +49,14 @@ https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/fil
 Language-specific
 Enabled: AdGuard Russian filter
 
-Chinese filter
-https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
+Russian filter
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt
 
 Japanese filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt
 
-Russian filter
-https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt
+Chinese filter
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
 
 German filter 
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_6_German/filter.txt
@@ -184,8 +184,7 @@ https://easylist-downloads.adblockplus.org/cntblock.txt
 RU AdList: BitBlock
 https://easylist-downloads.adblockplus.org/bitblock.txt
 
-ABPVN List
-description Vietnamese adblock filter list.
+ABPVN List description Vietnamese adblock filter list.
 https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt
 
 Fanboy's Enhanced Tracking List
