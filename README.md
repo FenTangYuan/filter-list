@@ -89,7 +89,7 @@ https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/fil
 
 
 
---------adguard規則列表--------
+# --------adguard規則列表--------
 
 EasyList
 https://easylist.to/easylist/easylist.txt
