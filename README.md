@@ -11,10 +11,12 @@ https://software.opensuse.org//download.html?project=home%3Alosuler%3Aicecat&pac
 
 https://github.com/muslayev/icecat-win64
 
-```bash
-echo 'deb https://download.opensuse.org/repositories/home:/losuler:/icecat/Debian_10/ /' | sudo tee /etc/apt/sources.list.d/home:losuler:icecat.list
+* If you have the `.deb` packages:
+
+    ```bash
+echo 'deb https://download.opensuse.org/repositories/home:/losuler:/icecat/Debian_10/ /' | sudo tee 	/etc/apt/sources.list.d/home:losuler:icecat.list
 curl -fsSL https://download.opensuse.org/repositories/home:losuler:icecat/Debian_10/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_losuler_icecat.gpg > /dev/null
-```
+    ```
 
 
 ungoogled-chromium
