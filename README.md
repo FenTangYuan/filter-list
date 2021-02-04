@@ -2,66 +2,6 @@
 
 
 
-
-GNU IceCat
-
-https://github.com/losuler/icecat
-
-https://software.opensuse.org//download.html?project=home%3Alosuler%3Aicecat&package=icecat
-
-https://github.com/muslayev/icecat-win64
-
-* If you have the `.deb` packages:
-
-```bash
-echo 'deb https://download.opensuse.org/repositories/home:/losuler:/icecat/Debian_10/ /' | sudo tee 	/etc/apt/sources.list.d/home:losuler:icecat.list
-curl -fsSL https://download.opensuse.org/repositories/home:losuler:icecat/Debian_10/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_losuler_icecat.gpg > /dev/null
-```
-
-
-ungoogled-chromium
-
-https://github.com/Eloston/ungoogled-chromium
-
-https://ungoogled-software.github.io/ungoogled-chromium-binaries/
-
-https://software.opensuse.org/download/package?package=ungoogled-chromium&project=home:ungoogled_chromium
-
-* If you have the `.deb` packages:
-
-	```sh
-	# dpkg -i ungoogled-chromium_*.deb ungoogled-chromium-common_*.deb
-	```
-
-* If you are using OBS:
-  - OBS (Debian Buster)
-    ```sh
-    # echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/ /' | sudo tee /etc/apt/sources.list.d/home-ungoogled_chromium.list > /dev/null
-    # curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
-    # sudo apt update
-    # sudo apt install -y ungoogled-chromium
-    ```
-  - OBS (Debian Sid)
-    ```sh
-    # echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Sid/ /' | sudo tee /etc/apt/sources.list.d/home-ungoogled_chromium.list > /dev/null
-    # curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Sid/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
-    # sudo apt update
-    # sudo apt install -y ungoogled-chromium
-    ```
-    
-      * RPM repository
-    - OBS (Fedora 33)
-      ```sh
-      # dnf config-manager --add-repo https://download.opensuse.org/repositories/home:wchen342:ungoogled-chromium-fedora/Fedora_33/home:wchen342:ungoogled-chromium-fedora.repo
-      # dnf install ungoogled-chromium
-      ```
-    - OBS (Fedora 32)
-      ```sh
-      # dnf config-manager --add-repo https://download.opensuse.org/repositories/home:wchen342:ungoogled-chromium-fedora/Fedora_32/home:wchen342:ungoogled-chromium-fedora.repo
-      # dnf install ungoogled-chromium
-      ```
- 
-
 -------------------
 
 -[uBlock Origin](https://github.com/gorhill/uBlock)
@@ -79,7 +19,176 @@ gitlab訪問失敗，Trace擴展'Proxy IP Header Spoofing'臨時關閉即可。
 
 先裝Disconnect、Decentraleyes再裝uBlock Origin。
 
---------uBlock Origin使用adguard規則--------
+---------AdBlocker Ultimate---------
+
+-[AdBlocker Ultimate](https://github.com/adblockultimate/)
+
+filter_1
+https://filters.adavoid.org/ultimate-ad-filter.txt
+
+filter_2
+https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+
+filter_3
+https://easylist.to/easylist/fanboy-annoyance.txt
+
+filter_4
+https://filters.adavoid.org/ultimate-privacy-filter.txt
+
+filter_5
+https://filters.adavoid.org/filters/FanboysSocialBlockingList.txt
+
+filter_6
+https://filters.adavoid.org/ultimate-security-filter.txt
+
+filter_7
+https://filters.adavoid.org/filters/Spam404.txt
+
+filter_8
+https://filters.adavoid.org/filters/NoCoin.txt
+
+Language-specific
+https://filters.adavoid.org/filters/Russianfilter.txt
+
+https://filters.adavoid.org/filters/Japanesefilter.txt
+
+https://filters.adavoid.org/filters/EasyListChina.txt
+
+--------------
+
+# -------AdBlocker Ultimate規則列表------
+
+-[AdBlocker Ultimate](https://github.com/adblockultimate/)
+
+Ultimate Ad Filter
+https://filters.adavoid.org/ultimate-ad-filter.txt
+
+ABP filters
+https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+
+Anti-circumvention
+https://filters.adavoid.org/filters/Anticircumvention.txt
+
+Fanboy's Annoyance List
+https://easylist.to/easylist/fanboy-annoyance.txt
+
+Ultimate Privacy Filter
+https://filters.adavoid.org/ultimate-privacy-filter.txt
+
+Fanboy's Social Blocking List
+https://filters.adavoid.org/filters/FanboysSocialBlockingList.txt
+
+Ultimate Security Filter
+https://filters.adavoid.org/ultimate-security-filter.txt
+
+Spam404
+https://filters.adavoid.org/filters/Spam404.txt
+
+NoCoin
+https://filters.adavoid.org/filters/NoCoin.txt
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+
+RuAdList+EasyList
+https://filters.adavoid.org/filters/Russianfilter.txt
+
+EasyList Germany+EasyList
+https://filters.adavoid.org/filters/Germanfilter.txt
+
+Fanboy's Japanese
+https://filters.adavoid.org/filters/Japanesefilter.txt
+
+EasyList Dutch + EasyList
+https://filters.adavoid.org/filters/Dutchfilter.txt
+
+Fanboy's Spanish/Portuguese
+https://filters.adavoid.org/filters/SpanishPortuguesefilter.txt
+
+Fanboy's Turkish
+https://filters.adavoid.org/filters/Turkishfilter.txt
+
+Bulgarian list
+https://filters.adavoid.org/filters/Bulgarianlist.txt
+
+EasyList China
+https://filters.adavoid.org/filters/EasyListChina.txt
+
+EasyList Czech and Slovak
+https://filters.adavoid.org/filters/EasyListCzechandSlovak.txt
+
+EasyList Italy
+https://filters.adavoid.org/filters/EasyListItaly.txt
+
+Latvian List
+https://filters.adavoid.org/filters/LatvianList.txt
+
+Adblock Polska
+https://filters.adavoid.org/filters/AdblockPolska.txt
+
+Estonian List
+https://filters.adavoid.org/filters/EstonianList.txt
+
+Adblock-Persian list
+https://filters.adavoid.org/filters/AdblockPersianlist.txt
+
+Fanboy's Swedish
+https://filters.adavoid.org/filters/FanboysSwedish.txt
+
+Fanboy's Korean
+https://filters.adavoid.org/filters/FanboysKorean.txt
+
+Fanboy's Vietnamese
+https://filters.adavoid.org/filters/FanboysVietnamese.txt
+
+Hufilter - The Hungarian Adblock List
+https://filters.adavoid.org/filters/HungarianList.txt
+
+Liste FR
+https://filters.adavoid.org/filters/FrenchList.txt
+
+--------------
+
+# -------AdBlock — best ad blocker規則列表-------
+
+AdBlock custom filters
+https://cdn.adblockcdn.com/filters/adblock_custom.txt
+
+Anti-Circumvention filters
+https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+
+EasyList
+https://easylist-downloads.adblockplus.org/easylist.txt
+
+Chinese + EasyList
+https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
+
+Japanese
+https://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt
+
+Russian & Ukrainian + EasyList
+https://easylist-downloads.adblockplus.org/ruadlist+easylist.txt
+
+Adblock Warning Removal list
+https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+
+Antisocial filter list / 「Fanboy's Social Blocking List」
+https://easylist-downloads.adblockplus.org/fanboy-social.txt
+
+Cryptocurrency (Bitcoin) Mining Protection List / 「NoCoin Filter List」
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+
+EasyPrivacy (privacy protection)
+https://easylist-downloads.adblockplus.org/easyprivacy.txt
+
+Fanboy's Annoyance List
+https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
+
+I Don't Care About Cookies
+https://www.i-dont-care-about-cookies.eu/abp/
+
+-----------
+
+
+# --------uBlock Origin使用adguard規則--------
 
 -[AdGuard filters](https://kb.adguard.com/en/general/adguard-ad-filters)
 
@@ -395,19 +504,71 @@ https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/fil
 AdGuard Spanish/Portuguese filter
 https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_9_Spanish/filter.txt
 
-=======
+------------------------
 
--[Anti-Adblock Killer](https://reek.github.io/anti-adblock-killer/#filterlist)
--[anti-adblock-killer](https://github.com/reek/anti-adblock-killer)
--[Anti-Adblock Killer](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
--[AK-Cont](https://gitlab.com/xuhaiyang1234/AAK-Cont/tree/master/FINAL_BUILD)
 
-https://gitlab.com/xuhaiyang1234/AAK-Cont/-/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt
 
-https://gitlab.com/xuhaiyang1234/AAK-Cont/-/raw/master/FINAL_BUILD/aak-cont-list-notubo.txt
 
-https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt
+-------Browser-------
 
-======
+GNU IceCat
+
+https://github.com/losuler/icecat
+
+https://software.opensuse.org//download.html?project=home%3Alosuler%3Aicecat&package=icecat
+
+https://github.com/muslayev/icecat-win64
+
+* If you have the `.deb` packages:
+
+```bash
+echo 'deb https://download.opensuse.org/repositories/home:/losuler:/icecat/Debian_10/ /' | sudo tee 	/etc/apt/sources.list.d/home:losuler:icecat.list
+curl -fsSL https://download.opensuse.org/repositories/home:losuler:icecat/Debian_10/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_losuler_icecat.gpg > /dev/null
+```
+
+
+ungoogled-chromium
+
+https://github.com/Eloston/ungoogled-chromium
+
+https://ungoogled-software.github.io/ungoogled-chromium-binaries/
+
+https://software.opensuse.org/download/package?package=ungoogled-chromium&project=home:ungoogled_chromium
+
+* If you have the `.deb` packages:
+
+	```sh
+	# dpkg -i ungoogled-chromium_*.deb ungoogled-chromium-common_*.deb
+	```
+
+* If you are using OBS:
+  - OBS (Debian Buster)
+    ```sh
+    # echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/ /' | sudo tee /etc/apt/sources.list.d/home-ungoogled_chromium.list > /dev/null
+    # curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
+    # sudo apt update
+    # sudo apt install -y ungoogled-chromium
+    ```
+  - OBS (Debian Sid)
+    ```sh
+    # echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Sid/ /' | sudo tee /etc/apt/sources.list.d/home-ungoogled_chromium.list > /dev/null
+    # curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Sid/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
+    # sudo apt update
+    # sudo apt install -y ungoogled-chromium
+    ```
+    
+      * RPM repository
+    - OBS (Fedora 33)
+      ```sh
+      # dnf config-manager --add-repo https://download.opensuse.org/repositories/home:wchen342:ungoogled-chromium-fedora/Fedora_33/home:wchen342:ungoogled-chromium-fedora.repo
+      # dnf install ungoogled-chromium
+      ```
+    - OBS (Fedora 32)
+      ```sh
+      # dnf config-manager --add-repo https://download.opensuse.org/repositories/home:wchen342:ungoogled-chromium-fedora/Fedora_32/home:wchen342:ungoogled-chromium-fedora.repo
+      # dnf install ungoogled-chromium
+      ```
+
+------
 
 -[粉糖圓 tw .ttf .otf](https://github.com/FenTangYuan/fentangyuan)
